@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-context-function-demo/static/css/main.24eac033.chunk.css",
+    "main.js": "/react-context-function-demo/static/js/main.69e629c0.chunk.js",
+    "main.js.map": "/react-context-function-demo/static/js/main.69e629c0.chunk.js.map",
+    "runtime~main.js": "/react-context-function-demo/static/js/runtime~main.60e76c76.js",
+    "runtime~main.js.map": "/react-context-function-demo/static/js/runtime~main.60e76c76.js.map",
+    "static/js/2.e1cb2e67.chunk.js": "/react-context-function-demo/static/js/2.e1cb2e67.chunk.js",
+    "static/js/2.e1cb2e67.chunk.js.map": "/react-context-function-demo/static/js/2.e1cb2e67.chunk.js.map",
+    "index.html": "/react-context-function-demo/index.html",
+    "precache-manifest.b56c03645cbb6376b10117617b10538e.js": "/react-context-function-demo/precache-manifest.b56c03645cbb6376b10117617b10538e.js",
+    "service-worker.js": "/react-context-function-demo/service-worker.js",
+    "static/css/main.24eac033.chunk.css.map": "/react-context-function-demo/static/css/main.24eac033.chunk.css.map"
+  }
+}
