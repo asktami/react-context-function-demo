@@ -4,9 +4,15 @@ import React from 'react';
 // that can be shared with all components
 
 // create a context object
-const MyContext = React.createContext({
-	count: '',
-	setCount: () => {}
-});
+// will still work if this is empty
+// because replaced with values passed into Provider (see App.js)
+const MyContext = React.createContext({});
+
+// don't have to do:
+// const MyContext = React.createContext({
+// 	count: '',
+// 	setCount: () => {},
+// 	updateCounts: () => {}
+// });
 
 export default MyContext;
