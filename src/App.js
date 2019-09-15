@@ -13,6 +13,12 @@ function App() {
 	// setCount is the updater function to change the state 'count' variable value
 	const [count, setCount] = useState(0);
 
+	// To use the previous value to update state, you must create a function that receives the previous value and returns the new value
+	// NOTE: 'prevCount' can be any text string
+	const updateCount = num => {
+		setCount(prevCount => prevCount + num);
+	};
+
 	/*
 	from https://reactjs.org/docs/context.html:
 
@@ -30,7 +36,8 @@ function App() {
 	// pass in both the state variables AND the functions which change them
 	const componentStateObj = {
 		count: count,
-		setCount: setCount
+		setCount: setCount,
+		updateCount: updateCount
 	};
 
 	return (
