@@ -8,6 +8,7 @@ const ChildComponent = props => {
 	// const {count, setCount, updateCount } = useContext(MyContext);
 
 	// just using the useContext hook:
+	// (variable name can be any text string, does NOT have to be 'context')
 	const context = useContext(MyContext);
 
 	return (
@@ -22,21 +23,6 @@ const ChildComponent = props => {
 			<GrandchildComponent />
 		</div>
 	);
-
-	/// using the useContext hook withOUT destructuring
-	// const myContextObj = useContext(MyContext);
-
-	// return (
-	// 	<div>
-	// 		<h2>ChildComponent</h2>
-	// 		<button onClick={() => myContextObj.setCount(myContextObj.count + 1)}>
-	// 			Count + 1
-	// 		</button>{' '}
-	// 		See Count in ChildComponent ({myContextObj.count})
-	// 		<br />
-	// 		<GrandchildComponent />
-	// 	</div>
-	// );
 };
 
 export default ChildComponent;

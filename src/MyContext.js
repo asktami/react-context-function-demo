@@ -12,7 +12,7 @@ const MyContext = React.createContext({});
 // const MyContext = React.createContext({
 // 	count: '',
 // 	setCount: () => {},
-// 	updateCounts: () => {}
+// 	updateCount: () => {}
 // });
 
 export default MyContext;
